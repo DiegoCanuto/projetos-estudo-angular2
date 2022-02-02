@@ -5,7 +5,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cursos.component.html',
   styleUrls: ['./cursos.component.css']
 })
-export class CursosComponent{
+export class CursosComponent implements OnInit{
 
+  nomePortal: any;
+
+  cursos : string[] = ['Java','JS','Angular'];
+
+  constructor(){
+    this.nomePortal = 'http://jozinho.training.primao';
+  }
+
+  ngOnInit(){
+      
+  }
 
 }
