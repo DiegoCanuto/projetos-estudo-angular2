@@ -54,7 +54,7 @@
 
 </section>-->
 
-<section>
+<!--<section>
 
     <article>
         <h3>Event Binding</h3>
@@ -96,13 +96,6 @@
         <div>
 
 
-
-           <!-- <input type="text"
-                [value]="nome"
-                (input)="nome = $event"
-
-            />-->
-
             <input type="text"
                 [ngModel]="nome"
                 (ngModelChange)="nome = $event"
@@ -123,5 +116,15 @@
             </div>
 
         </div>
+    </article>
+</section>-->
+
+<section>
+    <article>
+
+        <h3>Inpu/OutPut Properties</h3>
+
+        <app-curso [nome]="nomeDoCurso"></app-curso>
+
     </article>
 </section>
