@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-data-binding',
@@ -17,7 +17,7 @@ export class DataBindingComponent implements OnInit {
 
   isMouseOver: boolean = false;
 
-  nomeDoCurso: string = 'Curso de Angular';
+  nomeDoCurso: string = 'Curso de Angular'
 
   nome: string = 'abc';
 
@@ -27,6 +27,7 @@ export class DataBindingComponent implements OnInit {
     idade: 2
   }
 
+  valorInicial =15;
 
 
   getValor(){
@@ -53,6 +54,10 @@ export class DataBindingComponent implements OnInit {
   onMouseOverOut(){
     
     this.isMouseOver = !this.isMouseOver;
+  }
+
+  onMudouValor(evento:object){
+    console.log(evento);
   }
 
   constructor() { }

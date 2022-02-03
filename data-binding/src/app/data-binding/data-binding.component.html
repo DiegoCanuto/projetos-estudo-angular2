@@ -119,12 +119,27 @@
     </article>
 </section>-->
 
+<!--<section>
+    <article>
+
+        <h3>Input/OutPut Properties</h3>
+
+        <app-curso [nome]="nomeDoCurso"></app-curso>
+
+    </article>
+</section>-->
+
 <section>
     <article>
 
-        <h3>Inpu/OutPut Properties</h3>
+        <h3>Input/OutPut Properties Componente Pai</h3>
+
 
         <app-curso [nome]="nomeDoCurso"></app-curso>
+
+        <contador [valor]="valorInicial"
+        (mudouValor)="onMudouValor($event)"
+        ></contador>
 
     </article>
 </section>

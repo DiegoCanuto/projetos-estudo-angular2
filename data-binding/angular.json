@@ -95,7 +95,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.cs"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
             ],
             "scripts": []
