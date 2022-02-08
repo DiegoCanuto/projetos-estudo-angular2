@@ -8,6 +8,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
 import { DiretivaNgClassComponent } from './diretiva-ng-class/diretiva-ng-class.component';
 import { DiretivaNgStyleComponent } from './diretiva-ng-style/diretiva-ng-style.component';
 import { OperdorElvisComponent } from './operdor-elvis/operdor-elvis.component';
+import { ExemploContentComponent } from './exemplo-content/exemplo-content.component';
+import { FundoAmarelaDirective } from './shared/fundo-amarela.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { OperdorElvisComponent } from './operdor-elvis/operdor-elvis.component';
     NgforComponent,
     DiretivaNgClassComponent,
     DiretivaNgStyleComponent,
-    OperdorElvisComponent
+    OperdorElvisComponent,
+    ExemploContentComponent,
+    FundoAmarelaDirective
   ],
   imports: [
     BrowserModule
