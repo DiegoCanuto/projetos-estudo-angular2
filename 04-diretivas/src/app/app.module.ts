@@ -10,6 +10,7 @@ import { DiretivaNgStyleComponent } from './diretiva-ng-style/diretiva-ng-style.
 import { OperdorElvisComponent } from './operdor-elvis/operdor-elvis.component';
 import { ExemploContentComponent } from './exemplo-content/exemplo-content.component';
 import { FundoAmarelaDirective } from './shared/fundo-amarela.directive';
+import { DiretivaCustomizdasComponent } from './diretiva-customizdas/diretiva-customizdas.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FundoAmarelaDirective } from './shared/fundo-amarela.directive';
     DiretivaNgStyleComponent,
     OperdorElvisComponent,
     ExemploContentComponent,
-    FundoAmarelaDirective
+    FundoAmarelaDirective,
+    DiretivaCustomizdasComponent
   ],
   imports: [
     BrowserModule
