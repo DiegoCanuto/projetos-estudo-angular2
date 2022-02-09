@@ -9,3 +9,20 @@
 <p [highlight]="'red'" [defaultColor] ="'grey'">
     Texto com highlight com cores customizadas 
 </p>
+
+<h5>*nfIf boolean</h5>
+<div *ngIf="mostrarCursos">
+
+    Lista de Cursos  aqui
+
+</div>
+
+<div *ngElse="mostrarCursos">
+
+    Não existem cursos para serem listados
+
+</div>
+
+<br>
+
+<button (click)="onMostrarCursos()">Mostrar curso</button>
