@@ -7,7 +7,7 @@ export class CamelCasePipe implements PipeTransform {
 
   
 
-  transform(value: unknown, ...args: unknown[]): unknown {
+  transform(value: any, ...args: any[]): any {
     let values = value.split('');
     let result = '';
 
