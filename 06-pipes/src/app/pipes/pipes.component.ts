@@ -16,6 +16,8 @@ export class PipesComponent implements OnInit {
     url: 'https://www.amazon.com.br/As-Sombras-Arkron-Diego-Canuto-ebook/dp/B07M9TD9WK'
   };
 
+  livros : string[] = ['Java', 'Angular'];
+
   constructor() { }
 
   ngOnInit(): void {

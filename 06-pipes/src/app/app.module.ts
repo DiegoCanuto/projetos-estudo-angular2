@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { CamelCasePipe } from './camel-case.pipe';
 import { SettingsComponent } from './settings/settings.component';
+import { FiltroArrayPipe } from './filtro-array.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     PipesComponent,
     CamelCasePipe,
-    SettingsComponent
+    SettingsComponent,
+    FiltroArrayPipe
   ],
   imports: [
     BrowserModule
